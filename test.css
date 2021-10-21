@@ -11,12 +11,7 @@
 @import url('https://rmkx.github.io/src/transparentDiscord.css');
 @import url('https://rmkx.github.io/src/settingsIcons.css');
 @import url('https://rmkx.github.io/src/customBadges.css');
-@font-face {
-    font-family: 'Gilroy';
-    src: url('fhttps://cdn.statically.io/gh/this-is-blueish/apitest/main/Gilroy-ExtraBold.otf');
-    font-weight: normal;
-    font-style: normal;
-}
+
 
 :root {
     --server-hiding-width: 2.5%; /*Amount that will be shown when the channels panel hides | Default 50px*/
@@ -828,8 +823,8 @@
     color: transparent;
 }
 .withFrame-haYltI::before {
-    content: "ish.";
-    font-family: 'Gilroy', Gilroy !important;
+    content: "ish";
+    font-family: 'Courier New', Courier, monospace!important;
     position: absolute;
     font-size: 1rem;
     color: rgb(160, 160, 160)!important;
